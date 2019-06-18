@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>Sushmita Patil</title>
+  <!-- Icon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
@@ -18,7 +21,7 @@
 
 <body>
 
-  <section id="title">
+  <section id="title" class="background-dark">
     <div class="container-fluid">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -52,7 +55,7 @@
       </nav>
 
       <!-- Title -->
-      <div class="row top-section">
+      <div class="row">
         <div class="col-lg-6">
           <h1>Sushmita Patil</h1>
           <h2>Graduate Student</h2>
@@ -68,18 +71,18 @@
 
   <!-- Education -->
 
-  <section id="education">
+  <section id="education"  class="background-light">
     <h2>Educational Qualification</h2>
     <h3>Master of Science in Computer Science</h3>
-    <p>Colorado School of Mines</p>
+    <p><a href="https://www.mines.edu/">Colorado School of Mines</a></p>
     <p>2018-2020</p>
 
     <h3>Master of Science in Electrical Engineering</h3>
-    <p>Texas A&M University-Kingsville</p>
+    <p><a href="https://www.tamuk.edu/">Texas A&M University-Kingsville</a></p>
     <p>2015-2018</p>
 
     <h3>Bachelor of Engineering in Electrical and Electronics Engineering</h3>
-    <p>Gogte Institute of Technology, India</p>
+    <p><a href="http://www.git.edu/">Gogte Institute of Technology, India</a></p>
     <p>2011-2015</p>
 
   </section>
@@ -87,45 +90,175 @@
 
   <!-- Work Experience -->
 
-  <section id="work-exp">
-    <h2>Work Experience</h2>
-    <h3>Front-End Developer Intern (Nov 2014 - May 2015)</h3>
-    <p>NeoKraft PVT LTD</p>
-    <em>Bengaluru, Karnataka</em>
+  <section id="work-exp"  class="background-dark">
+    <h2 class="work-exp-heading">Work Experience</h2>
+    <div id="carousel-work-exp" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
 
-    <h3>Graduate Research Assistant (June 2016 - May 2018)</h3>
-    <p>Texas A&M University-Kingsville</p>
-    <em>Kingsville, Texas</em>
+        <div class="carousel-item active">
+          <h3>Front-End Developer Intern (Nov 2014 - May 2015)</h3>
+          <p>NeoKraft PVT LTD</p>
+          <em>Bengaluru, Karnataka, India</em>
 
-    <h3>Graduate Teaching Assistant (Aug 2016 - May 2017)</h3>
-    <p>Texas A&M University-Kingsville</p>
-    <em>Kingsville, Texas</em>
+          <h3>Graduate Research Assistant (June 2016 - May 2018)</h3>
+          <p>Texas A&amp;M University-Kingsville</p>
+          <em>Kingsville, Texas</em>
+
+          <h3>Graduate Teaching Assistant (Aug 2016 - May 2017)</h3>
+          <p>Texas A&amp;M University-Kingsville</p>
+          <em>Kingsville, Texas</em>
+        </div>
+        <div class="carousel-item">
+
+          <h3>Front-End Developer Intern (Nov 2014 - May 2015)</h3>
+          <p>NeoKraft PVT LTD</p>
+          <em>Location: Bengaluru, Karnataka, India</em><br>
+          <ul>
+            <li>Designed and developed the webpage using CSS, HTML, JavaScript and the DOM to enhance
+              functionality and user experience.</li>
+            <li>Performed Code refactoring to improve browsers compatibility and mobile responsiveness.</li>
+            <li>It also involved end to end interaction with Backend for API's, Production support, Business,
+              QA on a daily basis.</li>
+            <li>Participated in agile methodologies and weekly Sprint team meetings to discuss current and
+              future projects and strategies.</li>
+          </ul>
+
+        </div>
+        <div class="carousel-item">
+          <h3>Graduate Research Assistant</h3>
+          <p>Texas A&amp;M university-Kingsville</p>
+          <em>Location: Kingsville, Texas</em><br>
+          <ul>
+            <li>Member of Sustainable Renewable Energy and Distributed Generation (SREDG) research group at Texas A&amp;M University.
+            </li>
+            <li>Conducted research on unit commitment and cost optimization technique for net load management in micro-grid.
+            </li>
+            <li>Worked on reducing wind power curtailment to improve system flexibility.</li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <h3>Graduate Teaching Assistant</h3>
+          <p>Texas A&amp;M university-Kingsville</p>
+          <em>Location: Kingsville, Texas</em><br>
+          <ul>
+            <li>Tutored undergraduate students under the guidance of Dr. Tarek Masaud at Texas A&amp;M University-Kingsville.
+            </li>
+            <li>Graded quizzes, evaluated assignment papers with relevant feedback to enhance students' performance.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev carousel-button" href="#carousel-work-exp" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next carousel-button" href="#carousel-work-exp" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
   </section>
 
 
   <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <h3>Meal Planner</h3>
-    <p>HTML, CSS, JavaScript, PHP, MySQL</p>
-    <h3>Snake Game using JavaScript</h3>
-    <p>HTML, CSS, JavaScript</p>
-    <h3>Shopping Website</h3>
-    <p>HTML, CSS, JavaScript, PHP, MySQL</p>
-    <h3>Travelling Salesman Problem(TSP)</h3>
-    <p>C++, Algorithms, Data Structures</p>
+  <section id="projects" class="background-light">
+    <h2 class="projects-heading">Projects</h2>
+    <div id="carouselProjects" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h3>TinDog</h3>
+          <a href="https://sushmitapatil77.github.io/TinDog/">https://sushmitapatil77.github.io/TinDog/</a><br />
+          <p>HTML, CSS, Bootstrap</p>
+          <h3>Meal Planner</h3>
+          <p>HTML, CSS, JavaScript, PHP, MySQL</p>
+          <h3>Shopping Website</h3>
+          <p>HTML, CSS, JavaScript, PHP, MySQL</p>
+          <h3>Snake Game using JavaScript</h3>
+          <p>HTML, CSS, JavaScript</p>
+          <h3>Travelling Salesman Problem(TSP)</h3>
+          <p>C++, Algorithms, Data Structures</p>
+        </div>
+        <div class="carousel-item">
+          <h3>TinDog</h3>
+          <p>HTML, CSS, Bootstrap</p>
+          <ul>
+            <li>The objective of this project was to create a responsive page for TinDog(like Tinder).</li>
+            <li>This page contains several sections like features, testimonial, pricing plan, call for action and a footer</li>
+            <li>This is built using HTML, advanced CSS and Bootstrap</li>
+          </ul>
+          <p>
+            Complete code is available at <a href="https://github.com/sushmitapatil77/TinDog">https://github.com/sushmitapatil77/TinDog</a>
+          </p>
+
+        </div>
+        <div class="carousel-item">
+
+          <h3>Meal Planner</h3>
+          <p>HTML, CSS, JavaScript, PHP, MySQL</p>
+          <ul>
+            <li>The objective of this project was to develop a user-friendly weekly meal planner website.</li>
+            <li>The website’s structure was developed using HTML and styled using CSS.</li>
+            <li>JavaScript was used to handle interaction and navigation among pages and the backend was designed and built in PHP using MySQL.</li>
+          </ul>
+          <p>
+            Complete code is available at <a href="https://github.com/sushmitapatil77/Web-programming">https://github.com/sushmitapatil77/Web-programming</a>
+          </p>
+        </div>
+        <div class="carousel-item">
+          <h3>Shopping Website</h3>
+          <p>HTML, CSS, JavaScript, PHP, MySQL</p>
+          <ul>
+            <li>A shopping website was created for a store. The purchase form was built using HTML, CSS, JavaScript and PHP. </li>
+            <li>Each purchase would return a .csv file including customer name, purchase time, item name, purchase quantity and total.</li>
+            <li>The data of customers and items in store where stored in a database using MySQL.</li>
+          </ul>
+          <p>
+            Complete code is available at <a href="https://github.com/sushmitapatil77/Web-programming">https://github.com/sushmitapatil77/Web-programming</a>
+          </p>
+        </div>
+        <div class="carousel-item">
+          <h3>Snake Game using JavaScript</h3>
+          <p>HTML, CSS, JavaScript</p>
+          <ul>
+            <li>A game of snake was developed where the player uses arrow keys to control the direction of movement of the snake.</li>
+            <li>The content and the design of the website was built using HTML and CSS respectively. The game functions were developed in JavaScript.</li>
+          </ul>
+          <p>
+            Complete code is available at <a href="https://github.com/sushmitapatil77/Web-programming">https://github.com/sushmitapatil77/Web-programming</a>
+          </p>
+        </div>
+        <div class="carousel-item">
+          <h3>Travelling Salesman Problem(TSP)</h3>
+          <p>C++, Algorithms, Data Structures</p>
+          <ul>
+            <li>The objective of this project was to implement the nearest neighbor and exhaustive algorithm to solve TSP problem, measure their run times and compare them with asymptotic complexities.</li>
+
+          </ul>
+          <p>
+            Complete code is available at <a href="https://github.com/sushmitapatil77/Algorithms">https://github.com/sushmitapatil77/Algorithms</a>
+          </p>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselProjects" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselProjects" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
   </section>
 
   <!-- Skills -->
-  <section id="skills">
+  <section id="skills" class="background-dark">
     <h2>Skills</h2>
     <!-- <h2>Tools and Technology</h2> -->
     <div class="row">
-      <div class="col-lg-6">
-        <p>Windows - <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
-      </div>
       <div class="col-lg-6">
         <p>Linux - <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
       </div>
@@ -157,16 +290,16 @@
         <p>MySQL - <i class="far fa-star"></i><i class="far fa-star"></i></p>
       </div>
       <div class="col-lg-6">
-      <p>MS Office 365(MS Suite) - <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
-    </div>
+        <p>MS Office 365(MS Suite) - <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+      </div>
       <div class="col-lg-6">
-      <p>Adobe XD - <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+        <p>Adobe XD - <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+      </div>
     </div>
-</div>
   </section>
 
   <!-- Logos -->
-  <section id="logos">
+  <section id="logos" class="background-dark">
     <div id="logo-carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -187,31 +320,31 @@
         <div class="carousel-item">
           <i class="fab fa-php fa-5x icon"></i>
         </div>
-        </div>
+      </div>
     </div>
   </section>
 
   <!-- Coursework -->
-  <section id="coursework">
+  <section id="coursework" class="background-light">
     <h2>Relevant Coursework</h2>
     <div class="row">
       <div class="col-lg-6">
         <p>Web Programming</p>
       </div>
       <div class="col-lg-6">
-      <p>Database Management</p>
+        <p>Database Management</p>
       </div>
       <div class="col-lg-6">
-      <p>Algorithms</p>
+        <p>Algorithms</p>
       </div>
       <div class="col-lg-6">
-      <p>Theory of Computation</p>
+        <p>Theory of Computation</p>
       </div>
       <div class="col-lg-6">
-      <p>Advanced Computer Architecture</p>
+        <p>Advanced Computer Architecture</p>
       </div>
       <div class="col-lg-6">
-      <p>Introduction to Cryptography</p>
+        <p>Introduction to Cryptography</p>
       </div>
     </div>
 
@@ -219,9 +352,17 @@
 
   <!-- Footer -->
 
-  <footer id="footer">
+  <footer id="footer"  class="background-dark">
 
     <p>© Copyright 2019 Sushmita Patil</p>
+    <address>
+      <i class="fas fa-envelope"></i> Email me at: <a href="mailto:sushmitapatil@mymail.mines.edu" class="mailing-address">sushmitapatil@mymail.mines.edu</a><br />
+      <i class="fas fa-phone"></i> Phone no: 3612284301<br />
+      <i class="fas fa-map-marker-alt"></i> Address: 17615 West 16th Avenue,<br />
+              Golden, CO<br />
+
+    </address>
+
 
   </footer>
 

@@ -1,30 +1,73 @@
 body{
-  /* text-align: center; */
   font-family: "Montserrat";
   width: 100%;
+}
+
+h1, h2, h3{
+  line-height: 1.5;
+}
+
+h1{
+  font-weight:800;
+  font-size: 3.25rem;
+}
+
+h2{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.25rem;
+}
+
+h3{
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+p{
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+a{
+  color: #1F283D;
+  text-decoration: underline;
 }
 
 .container-fluid{
   padding: 3% 17%;
 }
 
-.navbar{
-  padding: 0 0 4.5rem;
-
+/* Background and font color */
+.background-light{
+  color:#1F283D;
+  background-color: #DFE3E9;
 }
 
-.nav-item{
-  font-family: "Montserrat";
-  font-size: 1.2rem;
-  padding: 0 55px 0 0;
-  padding-left: 0;
-
-}
-
-#title{
+.background-dark{
   background-color: #1F283D;
   color:#DFE3E9;
 }
+
+/* Common Padding */
+#education, #skills, #coursework{
+  padding: 3% 17%;
+}
+
+/* Navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  font-size: 1.2rem;
+  padding: 0 55px 0 0;
+}
+
+.nav-item:hover{
+  font-size: 1.3rem;
+}
+
+/* Title section */
 
 .profile-pic{
   width:70%;
@@ -33,72 +76,31 @@ body{
   border-radius: 100%;
 }
 
-.top-section{
-  padding-bottom: 4.5rem;
+/* Work Experience section*/
+
+.work-exp-heading{
+  padding: 3% 17% 0;
+}
+.carousel-item{
+  padding: 0 17% 3%;
 }
 
-h1{
-  font-family: "Montserrat";
-  font-weight:800;
-  font-size: 3.25rem;
-  line-height: 1.5;
+/* Projects section */
+
+.projects-heading{
+  padding: 3% 17% 0;
 }
 
-h2{
-  font-family: "Ubuntu";
-  font-weight: bold;
-  font-size: 2.25rem;
-  line-height: 1.5;
-}
-
-h3{
-  font-size: 1.75rem;
-  font-weight: bold;
-  line-height: 1.5;
-}
-
-p{
-  font-size: 1.25rem;
-  line-height: 1;
-}
-
-#education{
-  background-color: #DFE3E9;
-  padding: 3% 17%;
-}
-
-#work-exp{
-  padding: 3% 17%;
-  color:#DFE3E9;
-  background-color: #1F283D;
-}
-
-#projects{
-  padding: 3% 17%;
-  color:#1F283D;
-  background-color: #DFE3E9;
-}
-
-#skills{
-  padding: 3% 17%;
-  color:#DFE3E9;
-  background-color: #1F283D;
-}
+/* Skills section */
 
 #logos{
   padding: 0 0 3% 40%;
-  color:#DFE3E9;
-  background-color: #1F283D;
 }
 
-#coursework{
-  padding: 3% 17%;
-  color:#1F283D;
-  background-color: #DFE3E9;
-}
-
+/* Footer section */
 #footer{
   padding: 3% 17% 3%;
-  color:#DFE3E9;
-  background-color: #1F283D;
+}
+.mailing-address{
+  color: #DFE3E9;
 }
